@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <title>Mon portfolio</title>
+      <link rel="stylesheet" href="portfolio.css"> <!-- Feuille de style principale -->
+      <link rel="stylesheet" href="themes/white.css"> <!-- Changement de thème ici -->
+    </head>
+
+    <body class="body2">
+
+        <!-- 
+          Barre de navigation principale.
+          À noter : le lien actif contient un nom de classe "actif"
+        -->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="qui-suis-je.html">Qui-suis-je ?</a></li>
+            <li><a href="mes-projets.html">Mes projets</a></li>
+            <li><a class="actif" href="me-contacter.html">Me contacter</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <!-- 
+          Menu latéral montrant une photo de profil
+          ainsi que des informations personnelles
+        -->
+        <aside>
+
+          <!-- Photo de profil à remplacer -->
+          <figure>
+            <img src="./img/user.png" alt="Photo de profil">
+          </figure>
+
+          <!-- Informations personnelles -->
+          <h2>Guo Samuel</h2>
+          <ul>
+            <li>&#128100; Étudiant en première année du BUT informatique</li>
+            <li>&#128205; 6 rue colonel Manhès (38400 Saint Martin d'Hères)</li>
+            <li>&#128381; 07-83-24-11-93</li>
+          </ul>
+        </aside>
+
+        <!-- Le contenu principal apparait ici -->
+        <article class="articlePading">
+
+          <!-- Titre de la page -->
+          <h1>Me contacter</h1>
+
+          <p>
+            Si vous voulez me contacter, vous pouvez utiliser mes réseaux situés en bas de page, <a href="mailto:samuel.guo@etu.univ-grenoble-alpes.fr"
+            target="_blank">m'envoyer un mail</a>, ou m'envoyer un message via le formulaire ci-dessous.
+          </p>
+          <form action="#" method="get">
+          <textarea name="contact" cols="60" rows="15" placeholder="Écrivez votre message ici"></textarea>
+        
+          <input type="submit" value="Envoyer">
+          </form>
+
+        </article>
+
+      </main>
+
+      <!-- Barre des réseaux sociaux -->
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="https://github.com/Shenron472" target="_blank">Github</a></li>
+            <!-- <li><a href="https://twitter.com/" target="_blank">Twitter</a></li> -->
+            <li><a href="https://www.instagram.com/samuel.guo442/" target="_blank">Instragram</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </body>
+  </html>
+
+

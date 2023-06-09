@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <title>SAÉ 1.01/02</title>
+      <link rel="stylesheet" href="portfolio.css"> <!-- Feuille de style principale -->
+      <link rel="stylesheet" href="white.css"> <!-- Changement de thème ici -->
+    </head>
+    <body>
+        
+        <header>
+            <a class="retour" href="mes-projets.html">Mes projets</a>
+            <h1 id="h1SAE1-01">Plus d'informations concernant la SAÉ 1.01/02</h1>
+        </header>
+
+        <main id="mainSAE1-01">
+            
+            <article id="pSAE1-01">
+            <p> Dans cette SAÉ, le but était de créer un programme en Java capable de classifier des dépêches journalistiques 
+                selon 5 catégories : 
+                
+            </p>
+            <ul class="ulSAE1-01">
+                <li>ENVIRONNEMENT-SCIENCES</li>
+                <li>CULTURE</li>
+                <li>ÉCONOMIE</li>
+                <li>POLITIQUE</li>
+                <li>SPORTS</li>
+             </ul>
+
+            <p>Pour ce faire, nous avons travaillé en binôme, et le projet était divisé en 2 parties. 
+            La première consistait à réaliser manuellement un lexique pour chaque catégorie à partir d'un fichier 
+            de dépêches et tester ce lexique sur d'autres dépêches. 
+            La deuxième partie consistait à générer automatiquement les lexiques pour classer les dépêches.
+            </p>
+
+            <p>Pour réaliser la première partie, nous avons créé un fichier de lexique pour chaque catégorie contenant des mots avec un poids associé. 
+            Les mots et poids étaient arbitraires et correspondaient à ceux qui étaient dans le fichier de dépêches. <br> En Java, nous avons ensuite 
+            initialisé tous les lexiques, puis nous avons testé ces lexiques sur le fichier test contenant d'autres dépêches. 
+            <br> En sortie, nous avions un fichier contenant le résultat de la classification : le pourcentage de réponses correctes pour chaque catégorie, 
+            ainsi que le pourcentage moyen de bonnes réponses. Si le programme attribue une catégorie et que celle-ci est la même que la catégorie réelle de la dépêche, 
+            une bonne réponse est comptabilisée.
+            </p>
+
+            <p>
+                Pour la deuxième partie, nous avons codé une méthode qui génère les lexiques à partir d'un fichier de dépêches. Nous avons codé d'autres
+                méthodes : une pour calculer le score d'un mot selon le nombre de fois où il apparait dans la dépêche, et une autre où : lorsqu'un
+                mot est présent dans la bonne catégorie, le score est incrémenté (sinon le score est décrémenté).
+            </p>
+
+            <p>
+                <!-- COMMENT ON A PROC2D2 INDIVIDUELLEMENT ET COLLECTIVEMENT -->
+                Durant tout ce projet, nous nous sommes répartis les méthodes à coder pour travailler plus efficacement. Nous avons 
+                aussi avancé le projet en étant chacun chez nous. 
+            </p>
+
+            <!-- <p>
+                Malgré mes difficulté avec le langage de programmation Java, COMP2TENCES TECHNIQUES ET TRANSVERSALES
+            </p> -->
+            </article>
+            
+
+
+        </main>
+
+    </body>

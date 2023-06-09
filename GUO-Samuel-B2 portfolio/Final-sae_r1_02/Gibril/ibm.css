@@ -1,0 +1,354 @@
+
+/* -------------- */
+
+/* CLASS */
+.ecart{
+  display: flex;
+  flex-direction: column;
+  gap: 45px ;
+}
+header {
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  justify-content: end;
+  height: 50px;
+}
+
+header nav div{
+  width: 12%;
+}
+
+/* fin header */
+
+div h1 {
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+figure{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 1%;
+  width: 100%;
+}
+
+figure img{
+  width: 12.5vw;
+  border-radius: 0 0 5vh 5vh;
+}
+
+/* fin du logo */
+
+body {
+  overflow: hidden;
+  height: 100%;
+  background-color: rgb(23, 28, 28);
+  margin: 0;
+  padding: 0;
+}
+
+#dropbtn {
+  padding: 25px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+}
+
+.dropdown-content {
+  border-radius: 0 0 2em 2em;
+  margin-top: 50px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  border-radius: 0 0 1.5em 1.5em;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(78, 109, 236); color: white;}
+
+.dropdown:hover .dropdown-content {display: flex; flex-direction: column;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* Début du main*/
+
+main{
+
+  margin: 25px 500px 0 500px;
+}
+
+a{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+  display: flex;
+  margin-top: 50px;
+  position: static;
+  bottom: 0;
+  height: 100%;
+  background-color: white;
+}
+
+footer div{
+  margin: 20px 150px 0 150px;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid gray;
+  border-top-style: dashed;
+}
+
+footer{
+  height: 30vh;
+  overflow: hidden;
+}
+
+footer div{
+  display: flex;
+  justify-content: center;
+}     
+
+footer a{
+  margin-top: 50px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(74, 103, 247);
+}
+
+select {
+  appearance: none;
+  border: none;
+}
+
+/* ------------ ID ------------- */
+
+/* ------- image select -------*/
+
+
+
+#liste {
+  margin-left: 25px;
+  width: fit-content;
+  display: flex;
+  margin-right: auto;
+  position: relative;
+}
+
+#liste select{
+  width: 50px;
+}
+
+#er{
+background-image: url(https://th.bing.com/th/id/OIP.02uCDT9SEwYeJSwKHDKuRAHaHa?pid=ImgDet&rs=1);
+}
+
+#custom-image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  background: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  pointer-events: none; /* page ne prend pas en compte le block. peut activer ce qu'il y a derriere*/
+}
+
+/* ------- fin image select -------*/
+
+#research {
+  margin: 12px 10px 0px 0px;
+  width: 12vw;
+  height: 25px;
+}
+
+#loupe {
+  margin: 10px 5px 0 0;
+}
+
+#titre_1 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid wheat;
+  margin: 0 100px 0 100px;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 45vh;
+}
+
+nav{
+  width: 100%;
+}
+
+  
+  /* CLASS */
+  
+  .box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+  }
+  .research {
+    margin: 12px 10px 0px 0px;
+    width: 12vw;
+    height: 25px;
+  }
+  
+  .loupe {
+    margin: 10px 5px 0 0;
+  }
+  
+  .liste {
+    display: flex;
+    margin-right: auto;
+  }
+  
+  .liste select{
+    width: 150px;
+    margin: auto;
+  }
+/*Image vide*/
+.image{
+  left: 230px;
+  position: relative;
+  margin: 20px;
+  width: 450px;
+  height: 240 px;
+  }
+
+/* fin du header */
+
+.contenue{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  height: 300px;
+}
+
+.gauche{
+  display: flex;
+
+  position: relative;
+  right: 50px;
+  
+  width: 1480px;
+  height: 310px;
+  border-right: 3px solid grey ;
+}
+
+.droite{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+  width: 1480px;
+  height: 310px;
+}
+.h1{
+  display: flex;
+  align-content: center;
+}
+.paragraphe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.paragraphe p{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 15px;
+  text-align: center;
+}
+footer p{
+  text-align: center;
+}
+
+
+
+.circlebox {
+  height: 20px;
+  width: 20px;
+  margin: 0;
+}
+
+
+/* -------------- */
+
+label {
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+footer p{
+  color: black;
+}
+p{
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+
+input {
+  border: 2px solid gray;
+  border-radius: 0.5em;
+  height: 35px;
+}
+
+input:not(:placeholder-shown):invalid{
+  background-color: pink;
+  border-color: gray;
+  outline: 2px solid tomato;
+}
+
+#Message input::placeholder {
+  position: absolute;
+  top: auto;
+}
+/* question prof*/
+textarea {
+  resize: none;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  border: solid white 5px;
+  border-radius: 1em;
+}
+
+/*menue déroulant*/
+
+

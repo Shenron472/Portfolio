@@ -1,0 +1,208 @@
+body {
+    height: 100%;
+    background-color: rgb(23, 28, 28);
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: white;
+    position: relative;
+ }
+
+/* Textes */
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secteurs {
+    text-align: center;
+}
+
+a{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    position: relative;
+    text-align: center;
+    /* top: 30px; */
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+footer div{
+  display: flex;
+  justify-content: center;
+}     
+
+footer a{
+  margin-top: 50px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(74, 103, 247);
+}
+
+/* Images et diagrammes */
+
+#divlogo{
+    width: 20%;
+    position: relative;
+    left: 40%;
+    top: 20%;
+    border-radius: 20%;
+}
+
+#divfinances {
+    text-align: right;
+}
+
+#finances {
+    border-radius: 2em;
+    width: 15%;
+    height: 15%;
+    margin-right: 150px;
+}
+/* div {
+    text-align: right;
+} */
+
+#divPerformances {
+    text-align: center;
+}
+
+.performances {
+    width: 40%;
+    position: relative;
+    top: 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: end;
+    height: 50px;
+  }
+  
+  header nav #divlogo{
+    width: 12%;
+  }
+  
+  figure{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 1%;
+    width: 100%;
+  }
+  
+  figure img{
+    width: 12.5vw;
+    border-radius: 0 0 5vh 5vh;
+  }
+  
+
+  footer{
+    display: flex;
+    margin-top: 50px;
+    position: static;
+    bottom: 0;
+    height: 17vh;
+    background-color: white;
+  }
+  
+  footer div{
+    margin: 20px 150px 0 150px;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid gray;
+    border-top-style: dashed;
+  }
+  
+  footer div p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  select {
+    appearance: none;
+    border: none;
+  }
+
+  #liste {
+    margin-left: 25px;
+    width: fit-content;
+    display: flex;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  #liste select{
+    width: 50px;
+  }
+  
+  
+  #custom-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    background: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    pointer-events: none; /* page ne prend pas en compte le block. peut activer ce qu'il y a derriere*/
+  }
+
+  #research {
+    margin: 12px 10px 0px 0px;
+    width: 12vw;
+    height: 25px;
+  }
+  
+  #loupe {
+    margin: 10px 5px 0 0;
+  }
+
+  #dropbtn {
+    padding: 25px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: flex;
+  }
+  
+  .dropdown-content {
+    border-radius: 0 0 2em 2em;
+    margin-top: 50px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    border-radius: 0 0 1.5em 1.5em;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(78, 109, 236); color: white;}
+  
+  .dropdown:hover .dropdown-content {display: flex; flex-direction: column;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

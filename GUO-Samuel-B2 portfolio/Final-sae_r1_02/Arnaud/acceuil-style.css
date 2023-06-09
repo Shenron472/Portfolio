@@ -1,0 +1,279 @@
+
+html{
+  height: 110vh;
+}
+
+header {
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  justify-content: end;
+  height: 50px;
+}
+
+header nav div{
+  width: 12%;
+}
+
+/* fin header */
+
+figure{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#logo img{
+  width: 12.5vw;
+  border-radius: 0 0 5vh 5vh;
+}
+
+/* fin du logo */
+
+body {
+  overflow: visible;
+  height: 100%;
+  background-color: rgb(23, 28, 28);
+  margin: 0;
+  padding: 0;
+}
+
+main img:hover{
+  opacity: 50%;
+}
+
+#dropbtn {
+  padding: 25px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+}
+
+.dropdown-content {
+  border-radius: 0 0 2em 2em;
+  margin-top: 50px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  border-radius: 0 0 1.5em 1.5em;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(78, 109, 236); color: white;}
+
+.dropdown:hover .dropdown-content {display: flex; flex-direction: column;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+header a{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Début du main*/
+
+main{
+margin-top: 50px;
+height: 30vh;
+}
+
+#img {
+  margin: 0 200px 0 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+
+main #img figure {
+  display: flex;
+  flex-direction: row;
+  height: 25vh;
+  width: 250px;
+}
+
+figure div img{
+  border: 2px solid rgb(99, 74, 29);
+  border-style: dashed;
+  width: 250px;
+  height: 25vh;
+}
+
+figure div figcaption{
+  height: 5vh;
+  text-align: center;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px 0 0 0;
+  background-color: white;
+}
+
+footer{
+  display: flex;
+  margin-top: 50px;
+  position: static;
+  bottom: 0;
+  height: 60vh;
+  background-color: white;
+}
+
+footer div{
+  margin: 20px 150px 0 150px;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid gray;
+  border-top-style: dashed;
+}
+
+footer div p{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer div figure{
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+  border: 5px solid rgb(80, 132, 255);
+  border-style: dashed;
+}
+
+footer div figure img{
+
+  height: 40vh;
+  width: 100%;
+}
+
+select {
+  appearance: none;
+  border: none;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: rgb(50, 122, 255);
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ------------ ID ------------- */
+
+/* ------- image select -------*/
+
+
+
+#liste {
+  margin-left: 25px;
+  width: fit-content;
+  display: flex;
+  margin-right: auto;
+  position: relative;
+}
+
+#liste select{
+  width: 50px;
+}
+
+#er{
+background-image: url(https://th.bing.com/th/id/OIP.02uCDT9SEwYeJSwKHDKuRAHaHa?pid=ImgDet&rs=1);
+}
+
+#custom-image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  background: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  pointer-events: none; /* page ne prend pas en compte le block. peut activer ce qu'il y a derriere*/
+}
+
+/* ------- fin image select -------*/
+
+#research {
+  margin: 12px 10px 0px 0px;
+  width: 12vw;
+  height: 25px;
+}
+
+#loupe {
+  margin: 10px 5px 0 0;
+}
+
+#titre_1 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid wheat;
+  margin: 0 100px 0 100px;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 45vh;
+}
+
+
+#img a{
+  text-decoration: none;
+}
+
+#img a:hover{
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(15, 139, 247);
+  color: white;
+  border-radius: 1em;
+}
+
+#link-3{
+  font-size: small;
+}
+
+/*-------- FIN ID ---------*/
+nav{
+  width: 100%;
+}
+
+ul{
+  padding: 0;
+  width: 100%;
+}
+
+li{
+  width: 100%;
+  margin-bottom: 15px;
+  list-style: none;
+  color: azure;
+  text-align: center;
+}
+
+main a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: rgb(31, 138, 231);
+}
+
+main a:hover{
+  color: rgb(36, 61, 170);
+}
+
+/* -------------- */

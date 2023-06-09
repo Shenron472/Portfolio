@@ -1,0 +1,10 @@
+Adapter aux dislexyques (polices d'écritures..)
+Adapter aux daltoniens
+
+Framework (à regarder sur leur site):
+Bootstrap
+Foundation
+Materialize
+Bulma
+[Tailwind]
+Highlight.js
